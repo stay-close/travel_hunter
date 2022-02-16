@@ -1,0 +1,53 @@
+@media (max-width: 1140px) {}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 65%;
+    }
+    .container {
+        padding: 50px 80px;
+    }
+    .header_area {
+        height: auto;
+    }
+    .header_details {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .header_bottom_area {
+        grid-template-columns: 1fr;
+    }
+    .access_items {
+        grid-template-columns: 1fr;
+    }
+    .access_img {
+        height: 600px;
+    }
+    .gallery_items {
+        grid-template-columns: 1fr 1fr;
+    }
+    .offer_items {
+        grid-template-columns: 1fr;
+    }
+    .offer_img img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+    .container {
+        padding: 30px 50px;
+    }
+    .gallery_items {
+        grid-template-columns: 1fr;
+    }
+    .sign_up_details {
+        grid-template-columns: 1fr;
+    }
+    .footer_items {
+        grid-template-columns: 1fr;
+    }
+}

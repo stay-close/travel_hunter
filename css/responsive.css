@@ -32,6 +32,12 @@
     .offer_img img {
         width: 100%;
     }
+    .testimonial_area .container {
+        padding: 45px 30px;
+    }
+    .testimonial_items {
+        padding: 80px 30px;
+    }
 }
 
 @media (max-width: 768px) {

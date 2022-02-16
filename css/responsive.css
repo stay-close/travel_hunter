@@ -38,6 +38,12 @@
     .testimonial_items {
         padding: 80px 30px;
     }
+.service_area .container {
+      padding: 45px 30px 100px 30px;
+  }
+  .offer_area .container {
+      padding: 100px 30px;
+  }
 }
 
 @media (max-width: 768px) {
